@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppSQLite.MainPage" BackgroundColor="#98F0CC">
+
+    <StackLayout Margin="0,35,10,0" BackgroundColor="#6FEDF0">
+        
+        <Frame BackgroundColor="#E8172F" Padding="30" CornerRadius="0">
+            <Label Text="Bienvenidos..!!" HorizontalTextAlignment="Center" TextColor="GreenYellow" FontSize="36"/>
+        </Frame>
+        <Button HorizontalOptions="Center" VerticalOptions="Center" Text="AGREGAR CONTACTO" Clicked="Button_Clicked"></Button>
+        <Button x:Name="btnListPersons" HorizontalOptions="Center" VerticalOptions="Center" Text="CONTACTOS AGREGADOS" Clicked="btnListPersons_Clicked"></Button>
+        
+    </StackLayout>
+
+</ContentPage>
